@@ -86,7 +86,7 @@ function App () {
                             }) }
                         </div>
 
-                        <Calculator/>
+                        {/*<Calculator/>*/}
                 </div>
             </div>}
             
