@@ -30,13 +30,13 @@ function App () {
             left={
                 <ShoppingList 
                     title="produtos disponíveis"
-                    products={products}
                     onToggle={handleToggle}
                 />}
             middle={
                 <ShoppingList 
                     title="sua lista de compras"
-                    products={selectedProducts}
+                    displayOnlySelected
+                    onToggle={handleToggle}
                 />}
             right={<div>
                 Estatísticas
